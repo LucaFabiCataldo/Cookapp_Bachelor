@@ -1,0 +1,8 @@
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #eafbf5;
+}

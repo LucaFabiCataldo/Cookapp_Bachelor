@@ -1,0 +1,75 @@
+#setPhaseMode{
+    transition: all 0.5s;
+    position: absolute;
+    background-color: #145f47;
+    right: 50px;
+    bottom: 50px;
+    z-index: 1001;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    border: 2px solid #145f47;
+    border-radius: 100px;
+}
+
+#mikeCheck{
+    position: absolute;
+    transition: all 0.5s;
+    z-index: 1000;
+    background-color: rgba(250, 250, 250, 0.67);
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#mikeCheck div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mikeCheck p{
+    font-size: 40px;
+    color: black;
+    margin: 0;
+    font-weight: 600;
+}
+
+#mikeCheck button{
+    height: 50px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px;
+    font-weight: bold;
+    transition: all .2s;
+    border: 2px solid #145f47;
+    background-color: #145f47;
+    color: #ffffff;
+}
+
+#mikeCheck button:hover{
+    height: 50px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px;
+    font-weight: bold;
+    transition: all .2s;
+    border: 2px solid #145f47;
+    background-color: #ffffff;
+    color: #145f47;
+}

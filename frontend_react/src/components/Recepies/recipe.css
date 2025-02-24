@@ -1,0 +1,186 @@
+#recipe_page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 22;
+    background-color: #eafbf5;
+    transition: all .5s;
+    position: relative;
+}
+
+#areaReducer{
+    width: 100%;
+    align-self: center;
+    max-width: 1500px;
+    padding-top: 125px;
+    padding-bottom: 100px;
+    transition: all .5s;
+    z-index: 10;
+    position: relative;
+}
+
+#recipieCaroussel{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #145f47;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#recepieOfTheDay{
+    background-image: url(./Banane_m_Schokosoße.jpg);
+    height: 300px;
+    width: 60%;
+    background-size: cover; /* Stellt sicher, dass das Bild den gesamten Container ausfüllt */
+    background-position: center; /* Bild zentrieren */
+    background-repeat: no-repeat; /* Verhindert das Wiederholen des Bildes */
+    background-color: #be2631;
+}
+
+#recipieCaroussel img{
+    height: 100%;
+    width: 60%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+#carousselText{
+    background-color: #ffffff;
+    width: calc(40% - 48px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#carousselRDT{
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+}
+
+#carousselName{
+    font-size: 36px;
+    margin: 0;
+}
+
+#carousselDesc{
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 12px;
+}
+
+#pageHeadline{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#recipe_page_main_headline{
+    margin: 0;
+    font-size: 36px;
+}
+
+.recipe_page_secondary_headline{
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.recipe_page_block_headline{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#rezeptBloecke{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    margin-left: 100px;
+}
+
+.recipe_block{
+    display: flex;
+    gap: 20px;
+}
+
+.recipe{
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: none;
+    background-color: #145f47;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.recipe_img{
+    min-height: 150px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.recipe_img p{
+    font-size: 10px;
+    padding: 5px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.recipe_duration{
+    background-color: #fc642D;
+    color: #ffffff;
+}
+
+.recipe_diaetetik{
+    background-color: #F48079;
+}
+
+.recipe_diaetetik_vegan{
+    background-color: #145f47;
+    color: #ffffff;
+}
+
+.recipe_diaetetik_meat{
+    background-color: #be2631;
+    color: #ffffff;
+}
+
+.recipe_diaetetik_fish{
+    background-color: #f29f05;
+}
+
+.recipe_start{
+    background-color: #ffffff;
+    align-self: flex-end;
+    border-style: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: #145f47;
+    font-weight: 900;
+}
+
+.recipeOfTheDay_start{
+    background-color: #145f47;
+    align-self: flex-end;
+    border: 2px solid #145f47;
+    padding: 5px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 900;
+}
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #165f47;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 30px;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="37.89" y1="462.11" x2="462.11" y2="37.89"/>
+  <line class="cls-1" x1="37.89" y1="37.89" x2="462.11" y2="462.11"/>
+</svg>

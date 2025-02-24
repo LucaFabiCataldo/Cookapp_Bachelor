@@ -1,0 +1,11 @@
+#canvas_character{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    z-index: 2;
+    transition: all 0.5s;
+    /*background: radial-gradient(#90b0a3, #ffffff);*/
+
+}
